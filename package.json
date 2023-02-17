@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xt0rted/pull-request-comment-branch.git"
+    "url": "git+https://github.com/alessbell/pull-request-comment-branch.git"
   },
   "keywords": [
     "actions"

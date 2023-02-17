@@ -1,5 +1,7 @@
 # Pull Request Comment Branch
 
+> A fork of [`xt0rted/pull-request-comment-branch`](https://github.com/xt0rted/pull-request-comment-branch) that adds `head_repo` and `head_owner` metadata.
+
 [![CI](https://github.com/xt0rted/pull-request-comment-branch/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/xt0rted/pull-request-comment-branch/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/xt0rted/pull-request-comment-branch/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/xt0rted/pull-request-comment-branch/actions/workflows/codeql-analysis.yml)
 
