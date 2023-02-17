@@ -1,4 +1,4 @@
-name: "Pull Request Comment Branch"
+name: "Pull Request Comment Branch (ref, sha, owner, repo)"
 
 description: "Gets the head ref and sha of a pull request comment"
 
