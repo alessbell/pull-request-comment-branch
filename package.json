@@ -1,6 +1,6 @@
 {
   "name": "pull-request-comment-branch",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Gets the head ref and sha of a pull request comment",
   "main": "dist/index.js",
@@ -22,13 +22,13 @@
   "author": "xt0rted",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "@actions/github": "^5.1.1"
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.13.0",
-    "@vercel/ncc": "^0.36.1",
-    "rimraf": "^4.1.2",
-    "typescript": "^4.9.5"
+    "@types/node": "^20.11.20",
+    "@vercel/ncc": "^0.38.1",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
   }
 }

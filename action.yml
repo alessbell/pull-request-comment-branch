@@ -27,11 +27,6 @@ outputs:
     description: "The owner of the pull request branch the comment belongs to."
   head_repo:
     description: "The repository of the pull request branch the comment belongs to."
-# deprecated outputs
-  ref:
-    description: "Deprecated, use head_ref instead."
-  sha:
-    description: "Deprecated, use head_sha instead."
 
 runs:
   using: "node16"
