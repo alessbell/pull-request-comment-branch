@@ -25,13 +25,14 @@ jobs:
   pr-comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: xt0rted/pull-request-comment-branch@v2
+      - uses: alessbell/pull-request-comment-branch@v2
         id: comment-branch
 
       - uses: actions/checkout@v3
         if: success()
         with:
           ref: ${{ steps.comment-branch.outputs.head_ref }}
+          repository: ${{ steps.comment-branch.outputs.head_repo }}
 
       - run: git rev-parse --abbrev-ref HEAD
       - run: git rev-parse --verify HEAD
@@ -53,7 +54,7 @@ jobs:
   pr-comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: xt0rted/pull-request-comment-branch@v2
+      - uses: alessbell/pull-request-comment-branch@v2
 ```
 
 ### Job Config
@@ -68,7 +69,7 @@ jobs:
       issues: read
       pull-requests: read
     steps:
-      - uses: xt0rted/pull-request-comment-branch@v2
+      - uses: alessbell/pull-request-comment-branch@v2
 ```
 
 ## Options
